@@ -1,0 +1,8 @@
+---
+title: "Readme"
+output: html_document
+---
+
+The data tidying process involves various steps. First, I import all associated txt files. Then, I use join() and cbind() functions to combine the data for each of the train and test data sets. Following which, I aggregate the 2 data sets into a single data set using rbind(). After which, I use the sort() and grep() functions to retain only variables that contain "Mean", "mean", or "std" in their names. 
+
+To achieve step 5, I use the aggregate() function.
