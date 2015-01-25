@@ -1,0 +1,9 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+SubjectID identifies each unique subject.
+ActivityID identifies each unique activity.
+ActivityDescription describes the unique activity undertaken.
+All other variables are output from the Samsung SII.
